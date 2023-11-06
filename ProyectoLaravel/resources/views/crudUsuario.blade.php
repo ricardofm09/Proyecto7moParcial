@@ -3,5 +3,5 @@
 @section('titulo', 'Crud Usuario')
 
 @section('contenido')
-
+ 
 @endsection
