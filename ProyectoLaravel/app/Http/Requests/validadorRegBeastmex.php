@@ -22,7 +22,17 @@ class validadorRegBeastmex extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'txtCorreo' => 'required|email',
+            'txtContrasena' => 'required',
+            'txtNombre' => 'required',
+            'email' => 'required|email',
+            'txtPuesto' => 'required',
+            'password' => 'required',
+            'txtSerie' => 'required',
+            'number' => 'required',
+            'txtfile' => 'required',
+            'date' => 'required',
+            'txtMarca' => 'required',
         ];
     }
 }
